@@ -20,6 +20,10 @@ When you connect to that AP you will be presented with a website at 192.168.4.1 
 can select the SSID you want the sensor to connect to and use for sending the alerts.
 
 The program keeps a log on file and runs a webserver where the activity times can be seen.
+```
+![prowlmessage](https://github.com/keldnorman/human-radar/blob/main/images/website.png?raw=true)
+
+```
 The program also announces it self on the network using mDNS
 
 ToDo:  I need to add some clean up code to the logfile so the filesystem is not filled
