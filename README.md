@@ -162,12 +162,13 @@ For some reason the wifimanager does not connect to my wifi lab if i keep the sa
 * ----------------------------------------------
 * 
 * FAILED TO SEND PUSH MESSAGE:
-* If you see "Failed to send Push message" then you most likely forgot to add the PROWL API key or mistyped it.
+* If you see "Failed to send Push message" then you most likely forgot
+* to add the PROWL API key or mistyped it.
 * 
 * RESET WIFI SETTINGS:
 * To reset the saved WIFI settings push the button to the right of the usb and hold it for 4 sec.
 ```
-![diagram](https://github.com/keldnorman/human-radar/blob/main/images/help.png?raw=true)
+![diagram](https://github.com/keldnorman/human-radar/blob/main/images/help.png?raw=true)![diagram](https://github.com/keldnorman/human-radar/blob/main/images/wifi.png?raw=true)
 
 ```
 * 
