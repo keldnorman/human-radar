@@ -7,7 +7,7 @@ I am experimentating with sending the alarms via LoRa but this code here will se
 so it ends up as a push message on an iPhone.
 ( if you want to use it with an Android based phone then just rewrite the code to use "pushover" instead of "Prowl")
 ```
-![diagram](https://github.com/keldnorman/human-radar/blob/main/images/prowl-on-ophone.jpg?raw=true)
+![prowlmessage](https://github.com/keldnorman/human-radar/blob/main/images/prowl-on-ophone.jpg?raw=true)
 
 ```
 The program connects to a local WiFi but when no wifi exist it will annonce it self as an accesspoint called
