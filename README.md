@@ -6,7 +6,10 @@ or be used as an alarm in a drawer if it is opened or if anybody enters a room (
 I am experimentating with sending the alarms via LoRa but this code here will send the alarm via WiFi to a push service
 so it ends up as a push message on an iPhone.
 ( if you want to use it with an Android based phone then just rewrite the code to use "pushover" instead of "Prowl")
+```
+![diagram](https://github.com/keldnorman/human-radar/blob/main/images/prowl-on-ophone.jpg?raw=true)
 
+```
 The program connects to a local WiFi but when no wifi exist it will annonce it self as an accesspoint called
 "Sensor_not_configured" with the password: password
 
