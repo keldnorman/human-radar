@@ -327,7 +327,6 @@ void announceMDNS() {
 void timerCallback(void *pArg) { 
 //---------------------------------------------------------------------
  inp = digitalRead(INPUT_PIN);
- Serial.println(inp);
  if (inp > 0) {
   if (millis() - lastTriggerTime >= skipDuration) {  // Check if the skip duration has elapsed
     lastTriggerTime = millis();  // Update the last trigger time
