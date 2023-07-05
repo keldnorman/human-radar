@@ -1,7 +1,10 @@
 # human-radar
 ```
-This program is for creating a Human radar that can detect a present or be used as an alarm in a drawer or room.
-When a present is detected it will send a push message to an iPhone 
+This program is for creating a Human radar that can detect a present of a human
+or be used as an alarm in a drawer if it is opened or if anybody enters a room (or a secret bunker).
+
+I am experimentating with sending the alarms via LoRa but this code here will send the alarm via WiFi to a push service
+so it ends up as a push message on an iPhone.
 ( if you want to use it with an Android based phone then just rewrite the code to use "pushover" instead of "Prowl")
 
 The program connects to a local WiFi but when no wifi exist it will annonce it self as an accesspoint called
