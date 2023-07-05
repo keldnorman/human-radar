@@ -132,6 +132,10 @@ ToDo: I change the hostname at every boot to ensure connection to the wifi (long
  * Press the arrow pointing right at the top of Arduino under FILE EDIT SKETCH TOOLS HELP 
  * ( It looks like this: [->] ) 
  * Then the Arduino IDE will compile the code and upload it.
+```
+![diagram](https://github.com/keldnorman/human-radar/blob/main/images/arduino.png?raw=true)
+
+```
  */
 
 ```
