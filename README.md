@@ -114,13 +114,10 @@ ToDo: I change the hostname at every boot to ensure connection to the wifi (long
  * To use the push feature ( that i made for iPhones only sorry - if you have an android use pushover instead and rewrite the code )
  * You must go to the prowl website and create an API and on your iPhone download Prowl
  *
- * Prowls website:
 ```
- [https://www.prowlapp.com/](https://www.prowlapp.com/) 
- ```
- * Prowls iPhone app:
-```
- [https://apps.apple.com/dk/app/id320876271](https://apps.apple.com/dk/app/id320876271) 
+ [ * Prowls website: https://www.prowlapp.com/](https://www.prowlapp.com/) 
+
+ [* Prowls iPhone app: https://apps.apple.com/dk/app/id320876271](https://apps.apple.com/dk/app/id320876271) 
 ```
  *
  * Add the API string to the code where it says: String PROWL_API_KEY = "put-your-secret-prowl-api-key-here";
