@@ -53,9 +53,10 @@ For some reason the wifimanager does not connect to my wifi lab if i keep the sa
  *
  * 1 x ESP8266 with a wireless module - I use a NODE MCU AMICA = NodeMCU 1.0 (ESP-12E Module)
  * CPU: 80 MHZ, Flash: 4M (3M SPIFFS) (I bought it from aliexpress.com )
- * 2 x Inductors 1mH - 420mA - 1,989Ohm - Search for: CDRH105RNP-102NC (buy more than 2 - they are very fragile )
- * I bought them at Mouser Electronics, Inc. -> mouser.com
- * 2 x Capacitors 470 uF 6volt - Search for: 647-UKL0J471KPD I bought them at Mouser Electronics, Inc. -> mouser.com
+ * 2 x Inductors 1mH - 420mA - 1,989Ohm - Search for: CDRH105RNP-102NC
+ * (buy more than 2 - they are very fragile ) I bought them at Mouser Electronics, Inc. -> mouser.com
+ * 
+ * 2 x Capacitors 470 uF 6volt - Search for: 647-UKL0J471KPD I bought them at mouser.com
  * 1 x Micro-B cable to connect to the ESP8266
 ```
 ![diagram](https://github.com/keldnorman/human-radar/blob/main/images/mouser-order.png?raw=true)
@@ -74,7 +75,7 @@ For some reason the wifimanager does not connect to my wifi lab if i keep the sa
  *         |   |   |     ______     ______
  *         |   |   ---o--|COIL|--o--|COIL|--> +5v on ESP8266
  *         |   |      |          |
- *         | (*note)  = 470uf    = 470uf  <-- The two = signs here illustrates two condensators (6v or above)
+ *         | (*note)  = 470uf    = 470uf  <-- The two = signs here illustrates two condensators
  *         |          |          |
  *         -----------o----------o----------> GND on ESP8266
  *         
@@ -87,8 +88,8 @@ For some reason the wifimanager does not connect to my wifi lab if i keep the sa
  *
  * In the Arduino IDE you need to add the drivers for the esp8266.
  * 
- * Select the FILE menu -> Preferences -> And add the following line to the "Additional Boards Manager URL":  
- * https://arduino.esp8266.com/stable/package_esp8266com_index.json
+ * Select the FILE menu -> Preferences -> And add the following line to the
+ * "Additional Boards Manager URL": https://arduino.esp8266.com/stable/package_esp8266com_index.json
  * 
  * Then select: Tools  -> Manage Libraries
  * In the search field -> Search for wifimanager ( the one made by tzapu )
@@ -140,7 +141,8 @@ For some reason the wifimanager does not connect to my wifi lab if i keep the sa
  [* Prowls iPhone app: https://apps.apple.com/dk/app/id320876271](https://apps.apple.com/dk/app/id320876271) 
 ```
  *
- * Add the API string to the code where it says: String PROWL_API_KEY = "put-your-secret-prowl-api-key-here";
+ * Add the API string to the code where it says:
+ * String PROWL_API_KEY = "put-your-secret-prowl-api-key-here";
  *
 ```
 ![diagram](https://github.com/keldnorman/human-radar/blob/main/images/prowl.png?raw=true)
