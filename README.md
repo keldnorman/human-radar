@@ -4,17 +4,20 @@ This program is for creating a Human radar that can detect a present or be used 
 When a present is detected it will send a push message to an iPhone 
 ( if you want to use it with an Android based phone then just rewrite the code to use "pushover" instead of "Prowl")
 
-The program connects to a local WiFi but when no wifi exist it will annonce it self as an accesspoint called "Sensor_not_configured" with the password: password
-When you connect to that AP you will be presented with a website at 192.168.4.1 where you via "WifiManager" can select the SSID you want the sensor 
-to connect to and use for sending the alerts.
+The program connects to a local WiFi but when no wifi exist it will annonce it self as an accesspoint called
+"Sensor_not_configured" with the password: password
+
+When you connect to that AP you will be presented with a website at 192.168.4.1 where you via "WifiManager"
+can select the SSID you want the sensor to connect to and use for sending the alerts.
 
 The program keeps a log on file and runs a webserver where the activity times can be seen.
 The program also announces it self on the network using mDNS
 
 ToDo:  I need to add some clean up code to the logfile so the filesystem is not filled
-ToDo: I change the hostname at every boot to ensure connection to the wifi (long story dont ask ) remove it from the code and if it works for you then great.
-      For some reason the wifimanager does not connect to my wifi lab if i keep the same hostname - i still get the same IP from the DHCP server with a new hostname
-      and it works.. :) 
+ToDo: I change the hostname at every boot to ensure connection to the wifi (long story dont ask ) remove it
+from the code and if it works for you then great.
+For some reason the wifimanager does not connect to my wifi lab if i keep the same hostname
+ - i still get the same IP from the DHCP server with a new hostname and it works.. :) 
       
 ```
 ![diagram](https://github.com/keldnorman/human-radar/blob/main/images/diagram.png?raw=true)
@@ -35,8 +38,10 @@ ToDo: I change the hostname at every boot to ensure connection to the wifi (long
  *
  * Here is the hardware list: 
  *
- * 1 x ESP8266 with a wireless module - I use a NODE MCU AMICA = NodeMCU 1.0 (ESP-12E Module) CPU: 80 MHZ, Flash: 4M (3M SPIFFS) (I bought it from aliexpress.com )
- * 2 x Inductors 1mH - 420mA - 1,989Ohm - Search for: CDRH105RNP-102NC (buy more than 2 - they are very fragile ) I bought them at Mouser Electronics, Inc. -> mouser.com
+ * 1 x ESP8266 with a wireless module - I use a NODE MCU AMICA = NodeMCU 1.0 (ESP-12E Module)
+ * CPU: 80 MHZ, Flash: 4M (3M SPIFFS) (I bought it from aliexpress.com )
+ * 2 x Inductors 1mH - 420mA - 1,989Ohm - Search for: CDRH105RNP-102NC (buy more than 2 - they are very fragile )
+ * I bought them at Mouser Electronics, Inc. -> mouser.com
  * 2 x Capacitors 470 uF 6volt - Search for: 647-UKL0J471KPD I bought them at Mouser Electronics, Inc. -> mouser.com
  * 1 x Micro-B cable to connect to the ESP8266
 ```
@@ -90,7 +95,8 @@ ToDo: I change the hostname at every boot to ensure connection to the wifi (long
  * ( i am using an ESP8266-12E 30Pin CP2102 board Amica 80 MHz 32 bit 4 MB flash )
  *
  * Now select Tools -> Port -> Select the com port the esp8266 is listed as.
- * Windows people can look in their Device Manager (Press Windows button + X and select Device manager) and look under COM ports
+ * Windows people can look in their Device Manager (Press Windows button + X and select Device manager)
+ * and look under COM ports
  * Linux people can look at /dev
  * Mac people .. 
  *
@@ -111,7 +117,8 @@ ToDo: I change the hostname at every boot to ensure connection to the wifi (long
  *  Erase Flash         Only Flash (set it to All Flash Contents the first time you upload the code )
  *  CPU Frequency: 	80 MHz
  *
- * To use the push feature ( that i made for iPhones only sorry - if you have an android use pushover instead and rewrite the code )
+ * To use the push feature ( that i made for iPhones only sorry.
+ * If you have an android use pushover instead and rewrite the code )
  * You must go to the prowl website and create an API and on your iPhone download Prowl
  *
 ```
