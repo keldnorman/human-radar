@@ -32,9 +32,9 @@ Addition: Motion detector - Keld Norman 2019
  *
  * Here is the hardware list: 
  *
- * 1 x ESP8266 with a wireless module - I use a NODE MCU AMICA = NodeMCU 1.0 (ESP-12E Module) CPU: 80 MHZ, Flash: 4M (3M SPIFFS)
- * 2 x Inductors 1mH - 420mA - 1,989Ohm - CDRH105RNP-102NC (buy more than 2 - they are very fragile )
- * 2 x Capacitors 470 uF 6volt                             (INDUCTORS)
+ * 1 x ESP8266 with a wireless module - I use a NODE MCU AMICA = NodeMCU 1.0 (ESP-12E Module) CPU: 80 MHZ, Flash: 4M (3M SPIFFS) (I bought it from aliexpress.com )
+ * 2 x Inductors 1mH - 420mA - 1,989Ohm - Search for: CDRH105RNP-102NC (buy more than 2 - they are very fragile ) I bought them at Mouser Electronics, Inc. -> mouser.com
+ * 2 x Capacitors 470 uF 6volt - Search for: 647-UKL0J471KPD I bought them at Mouser Electronics, Inc. -> mouser.com
  * 1 x Micro-B cable to connect to the ESP8266
  *
  * Here is a diagram of the sensor, the noise reduction circuit and the ESP8266
