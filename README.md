@@ -1,4 +1,7 @@
 # human-radar
+
+![prowlmessage](https://github.com/keldnorman/human-radar/blob/main/images/my_first_prototype.jpg?raw=true)
+
 ```
 This program is for creating a Human radar that can detect a present of a human
 or be used as an alarm in a drawer if it is opened or if anybody enters a room (or a secret bunker).
