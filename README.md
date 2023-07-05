@@ -20,7 +20,8 @@ ToDo: I change the hostname at every boot to ensure connection to the wifi (long
 ![diagram](https://github.com/keldnorman/human-radar/blob/main/images/diagram.png?raw=true)
 
 ```
-Addition: Motion detector - Keld Norman 2019 
+/*
+ * Addition: Motion detector - Keld Norman 2019 
  * Updated:  Rewritten code  - Keld Norman (Compatible with 2023 Arduino code base)
  * Updated:  Rewritten code  - Keld Norman More stabile code and prowl alerting
  * 
@@ -38,6 +39,10 @@ Addition: Motion detector - Keld Norman 2019
  * 2 x Inductors 1mH - 420mA - 1,989Ohm - Search for: CDRH105RNP-102NC (buy more than 2 - they are very fragile ) I bought them at Mouser Electronics, Inc. -> mouser.com
  * 2 x Capacitors 470 uF 6volt - Search for: 647-UKL0J471KPD I bought them at Mouser Electronics, Inc. -> mouser.com
  * 1 x Micro-B cable to connect to the ESP8266
+```
+![diagram](https://github.com/keldnorman/human-radar/blob/main/images/mouser-order.png?raw=true)
+
+```
  *
  * Here is a diagram of the sensor, the noise reduction circuit and the ESP8266
  *  ______________________ 
@@ -111,6 +116,10 @@ Addition: Motion detector - Keld Norman 2019
  * Prowls website: https://www.prowlapp.com/
  * Prowls iPhone app: https://apps.apple.com/dk/app/id320876271
  * Add the API string to the code where it says: String PROWL_API_KEY = "put-your-secret-prowl-api-key-here";
+```
+![diagram](https://github.com/keldnorman/human-radar/blob/main/images/prowl.png?raw=true)
+
+```
  * 
  * Last but not leat compile the code and upload it to the hardware:
  * 
