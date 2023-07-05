@@ -16,8 +16,10 @@ ToDo: I change the hostname at every boot to ensure connection to the wifi (long
       For some reason the wifimanager does not connect to my wifi lab if i keep the same hostname - i still get the same IP from the DHCP server with a new hostname
       and it works.. :) 
       
-Pictures and more info will be added here shortly..
+```
+![diagram](https://github.com/keldnorman/human-radar/blob/main/images/diagram.png?raw=true)
 
+```
 Addition: Motion detector - Keld Norman 2019 
  * Updated:  Rewritten code  - Keld Norman (Compatible with 2023 Arduino code base)
  * Updated:  Rewritten code  - Keld Norman More stabile code and prowl alerting
