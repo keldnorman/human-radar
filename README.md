@@ -121,6 +121,7 @@ ToDo: I change the hostname at every boot to ensure connection to the wifi (long
 ```
  *
  * Add the API string to the code where it says: String PROWL_API_KEY = "put-your-secret-prowl-api-key-here";
+ *
 ```
 ![diagram](https://github.com/keldnorman/human-radar/blob/main/images/prowl.png?raw=true)
 
