@@ -170,13 +170,7 @@ For some reason the wifimanager does not connect to my wifi lab if i keep the sa
 ```
 ![diagram](https://github.com/keldnorman/human-radar/blob/main/images/help.png?raw=true)![diagram](https://github.com/keldnorman/human-radar/blob/main/images/wifi.png?raw=true)
 
-```
-* 
-*/
-
 ## Buy me a cup of coffee ?
 
 If you like this project and wants to give me a cup of coffee:
 https://buymeacoffee.com/keldnormanh
-```
-
