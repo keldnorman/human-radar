@@ -174,5 +174,9 @@ For some reason the wifimanager does not connect to my wifi lab if i keep the sa
 * 
 */
 
+## Buy me a cup of coffee ?
+
+If you like this project and wants to give me a cup of coffee:
+https://buymeacoffee.com/keldnormanh
 ```
 
